@@ -1,7 +1,7 @@
 ---
 - name: Install NGINX
   package:
-    name: nginx
+    name: nginxx
     state: present
 
 - name: Deploy index.html
