@@ -1,0 +1,14 @@
+---
+version: 1
+
+dependencies:
+  python:
+    - boto3
+    - requests
+
+  system:
+    - python3-pip
+
+  ansible_collections:
+    - amazon.aws
+    - community.general
